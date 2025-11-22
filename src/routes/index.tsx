@@ -100,7 +100,7 @@ function Index() {
           <div className="pt-2 w-full flex flex-col items-center">
             <ContactFormModal />
             
-            <div className="w-full flex justify-center my-12 md:my-16 overflow-hidden">
+            <div className="w-full flex justify-center mt-12 md:mt-16 mb-6 md:mb-8 overflow-hidden">
               {/* Basic horizontal loop */}
               <LogoLoop
                 logos={imageLogos as any}
@@ -116,18 +116,8 @@ function Index() {
           </div>
         </div>
 
-        {/* SECTION 3 — VIDEO PLACEHOLDER (NO VIDEO) */}
-        <div 
-          className="w-full max-w-3xl mt-0 aspect-video bg-neutral-900 border border-neutral-800 rounded-xl flex items-center justify-center shadow-2xl shadow-black/50"
-          aria-label="highlight reel 30 secs–1 min"
-        >
-          <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center text-neutral-200 text-2xl shadow-lg hover:bg-red-500 transition-colors cursor-pointer">
-            <span className="ml-1">▶</span>
-          </div>
-        </div>
-
         {/* SECTION 4 — SECOND HEADLINE + CTA */}
-        <div className="text-center mt-24 space-y-6 max-w-2xl">
+        <div className="text-center mt-6 md:mt-8 space-y-6 max-w-2xl">
           <h2 className="text-3xl md:text-5xl font-semibold text-neutral-200 tracking-tight drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]">
             See the Work Behind the Results.
           </h2>
@@ -145,6 +135,12 @@ function Index() {
           <FAQAccordion />
         </div>
 
+        {/* Footer Copyright */}
+        <div className="mt-48 mb-10 text-center">
+          <p className="text-sm text-neutral-500">
+            © Polar Creative Group Incorporated. All rights reserved.
+          </p>
+        </div>
 
       </div>
     </div>

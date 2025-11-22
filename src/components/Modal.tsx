@@ -23,7 +23,7 @@ export default function Modal({
       onClick={handleBackdropClick}
     >
       <div 
-        className="bg-neutral-900 border border-neutral-700 rounded-2xl p-6 w-full max-w-xl relative"
+        className="bg-neutral-900 border border-neutral-700 rounded-2xl p-6 w-full max-w-xl relative modal-blur-in"
         onClick={(e) => e.stopPropagation()} // Prevent clicks inside modal from closing it
       >
 

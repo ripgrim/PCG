@@ -106,7 +106,7 @@ export default function ContactForm() {
   return (
     <Form {...form}>
       <form ref={formRef} onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-        <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
+        <h2 className="text-2xl font-bold text-white mb-4">Book A Meeting</h2>
         
         {/* Hidden input for stringified services */}
         <input type="hidden" name="service" value={servicesString} />
