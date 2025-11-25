@@ -1,8 +1,5 @@
-<<<<<<< Current (Your changes)
-
-=======
 // @ts-nocheck
->>>>>>> Incoming (Background Agent changes)
+
 import { createFileRoute } from '@tanstack/react-router'
 import LogoLoop from '@/components/LogoLoop'
 import Aurora from '@/components/Aurora'
