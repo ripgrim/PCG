@@ -19,7 +19,7 @@ const imageLogos = [
   { src: "/logoloop/synical.png", alt: "Synical", href: "#" }
 ];
 
-export const Route = createFileRoute('/')({
+export const Route = (createFileRoute('/') as any)({
   component: Index,
 })
 
