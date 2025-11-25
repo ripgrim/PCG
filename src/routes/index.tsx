@@ -1,4 +1,3 @@
-// @ts-nocheck
 
 import { createFileRoute } from '@tanstack/react-router'
 import LogoLoop from '@/components/LogoLoop'
@@ -19,7 +18,7 @@ const imageLogos = [
   { src: "/logoloop/synical.png", alt: "Synical", href: "#" }
 ];
 
-export const Route = (createFileRoute('/') as any)({
+export const Route = createFileRoute('/')({
   component: Index,
 })
 
